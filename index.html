@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/images.jpg" type="image/jpg" />
+    <link rel="stylesheet" href="index.css" />
+    <title>index</title>
+  </head>
+  <body>
+    <a href="./index.html" title="thu1">home</a>
+    <a href="./about.html" title="thu2">about</a>
+    <div class="so1">
+      <p>kkdfkfkfkr</p>
+      <h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non laborum,
+        dolores ad similique id qui, debitis vitae incidunt nihil mollitia animi
+        enim odit nemo. Necessitatibus asperiores sit quo officia non. Ducimus,
+        repellendus incidunt velit officia iusto enim quidem omnis excepturi
+        magni quam vero tempora temporibus odit quo ullam nesciunt? Debitis
+        perspiciatis ipsam sit? Ducimus, voluptatum itaque nemo quos est ea.
+        Eveniet mollitia, nam rerum optio error dolorum reprehenderit commodi
+        aspernatur quaerat soluta earum eos quibusdam neque sint natus minima
+        sapiente. Libero vero voluptatum voluptates alias dolorem ut laboriosam
+        repellendus tempore.
+      </h2>
+      <p class="text">ổng bị <span>điên</span> hả mày?</p>
+      <p id="kiki">hoho</p>
+      <p id="kiki">hoho <em>gggg</em> gff</p>
+      <h3>huhuhu</h3>
+      <h3>jijiji</h3>
+    </div>
+    <hr />
+    <div class="hihi">
+      mí bà ơiiii
+      <p>bà thích tui đúng kos</p>
+    </div>
+    <hr />
+    <div class="ty"></div>
+    <br />
+    <hr />
+    <video id="video" width="400" controls autoplay loop>
+      <source
+        src="./music/CORTIS (코르티스) 'GO!' Official MV.mp4"
+        type="video/mp4"
+      />
+    </video>
+
+    <audio
+      id="audio"
+      src="./music/CORTIS (코르티스) 'GO!' Official MV.mp3"
+      preload="auto"
+    ></audio>
+
+    <script>
+      const video = document.getElementById("video");
+      const audio = document.getElementById("audio");
+
+      video.addEventListener("play", function () {
+        audio.currentTime = video.currentTime;
+        audio.play();
+      });
+
+      video.addEventListener("pause", function () {
+        audio.pause();
+      });
+
+      video.addEventListener("seeked", function () {
+        audio.currentTime = video.currentTime;
+      });
+
+      video.addEventListener("ended", function () {
+        audio.pause();
+        audio.currentTime = 0;
+      });
+    </script>
+    <ul>
+      <a href="#lll"><li>huhuh</li></a>
+      <a href="#ttt"><li>huhugygyg</li></a>
+    </ul>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptates
+      ipsa fugiat blanditiis corrupti saepe vel possimus debitis earum ex quod
+      praesentium doloremque illo placeat magnam, aut minus. Recusandae, dolore!
+      Possimus quas ut et repudiandae, laboriosam adipisci saepe impedit
+      nesciunt tenetur reiciendis quo quis voluptate nihil. Sunt deleniti harum
+      dolorem facere! Ipsum quasi similique laboriosam nemo non animi,
+      temporibus et? Est molestiae cumque aut illum possimus tenetur molestias
+      amet adipisci facilis eveniet. Eveniet illo alias minus ab officia
+      doloribus quae nihil iure tempora. Enim necessitatibus quia repellat
+      ratione officia. Numquam.
+    </p>
+    <h2 id="lll">lplpl</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <h2 id="ttt">hihih</h2>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+@font-face {
+  src: url(./fonts/HomemadeApple-Regular.ttf);
+  font-family: HomemadeApple;
+}
+.so1 p:first-child {
+  color: red;
+  font-family: HomemadeApple;
+}
+.ty:empty {
+  background-color: #f5ff6b;
+  width: 100%;
+  height: 100px;
+}
+.ty {
+  width: 100%;
+  height: 100px;
+  background-color: #54ff36;
+}
+.hihi p {
+  display: none;
+  background-color: #ffbefa;
+  padding: 10px;
+}
+div:hover p {
+  display: block;
+}
+h2:target {
+  color: rgb(99, 255, 102);
+  background-color: rgb(0, 0, 0);
+}
+#ttt:target {
+  color: rgb(131, 226, 253);
+  background-color: rgb(0, 0, 0);
+}
+.so1 h2::selection {
+  color: rgb(202, 14, 186);
+  background-color: rgb(220, 255, 198);
+}
+p#kiki {
+  color: rgb(255, 0, 0);
+}
+.so1 h3:last-child {
+  color: rgb(81, 252, 255);
+}
